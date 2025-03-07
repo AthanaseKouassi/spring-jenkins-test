@@ -9,6 +9,7 @@ public class SpringJenkinsTestApplication {
     public static void main(String[] args) {
         SpringApplication.run(SpringJenkinsTestApplication.class, args);
         System.out.println("Hello World!");
+        System.exit(0);
     }
 
 }
